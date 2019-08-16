@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PADC_Assign_2</string>
+    <string name="txt_1">C$36</string>
+    <string name="text_2">AVIS</string>
+    <string name="text_3">Economy</string>
+    <string name="text_6">1</string>
+    <string name="text_5">4</string>
+    <string name="text_7">4</string>
+    <string name="text8">Apr 3, 12pm</string>
+    <string name="text9">----------------</string>
+    <string name="text10">Apr 6, 12pm</string>
+    <string name="dubi">DUBI</string>
+    <string name="promotion_time">Apri 3, 12:00pm - Apri 23, 12:00pm</string>
+    <string name="nissan_l21">Nissan L21</string>
+    <string name="dollar">$2,869</string>
+    <string name="pro_text">CAD per day,\n incl, taxes and fees</string>
+    <string name="btn_text">BOOK</string>
+    <string name="automatic">Automatic</string>
+    <string name="airconditiong">Airconditiong</string>
+    <string name="convertable">Convertable</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardcorner_radius">35dp</dimen>
+    <dimen name="card_padding">8dp</dimen>
+    <dimen name="txt_large_size">24sp</dimen>
+    <dimen name="main_padding">16dp</dimen>
+    <dimen name="drawable_padding">4dp</dimen>
+    <dimen name="padding_normal">8dp</dimen>
+    <dimen name="double_padding">16dp</dimen>
+    <dimen name="margin_top">52dp</dimen>
+    <dimen name="triple_padding">32dp</dimen>
+    <dimen name="txt_small_size">12dp</dimen>
+    <dimen name="txt_size_medium">20sp</dimen>
+</resources>

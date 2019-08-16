@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/double_padding"
+    tools:context=".activity.DetailActivity">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/nissan_l21"
+        android:textColor="@color/blur_300"
+        android:textSize="@dimen/txt_large_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/promotion_time"
+        android:textSize="@dimen/txt_small_size" />
+
+    <ImageView
+        android:id="@+id/image_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/nissan_l21"
+        android:textColor="@color/light_blue_200"
+        android:textSize="@dimen/txt_size_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This is the best model of nissan"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/promotion_time"
+        android:textSize="@dimen/txt_small_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/triple_padding"
+        android:background="@color/indigo_400"
+        android:padding="@dimen/double_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/dollar"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_large_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/pro_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_small_size" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/white"
+            android:text="@string/btn_text"
+            android:textColor="@color/indigo_400" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/double_padding"
+        android:background="@color/grey_300"
+        android:orientation="vertical"
+        android:padding="@dimen/double_padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Offer Details"
+            android:textColor="@color/indigo_400"
+            android:textSize="@dimen/txt_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/double_padding"
+            android:text="@string/automatic"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/airconditiong"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/txt3"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="@string/text_5" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/double_padding"
+                android:layout_toStartOf="@+id/txt4"
+                android:drawableStart="@drawable/ic_card_giftcard_black_24dp"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="@string/text_6" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/double_padding"
+                android:layout_marginEnd="@dimen/double_padding"
+                android:drawableStart="@drawable/ic_weekend_black_24dp"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="@string/text_7" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/convertable"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/triple_padding">
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/text8"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/text9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/text10"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt5"
+            android:text="Pick-up" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt5"
+            android:layout_centerHorizontal="true"
+            android:text="Non Airport"
+            android:textColor="@color/light_blue_200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt5"
+            android:layout_alignParentEnd="true"
+            android:text="Drop-off" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
